@@ -6,8 +6,7 @@ import profileImage from '../assets/sakib.jpeg'
 
 const roles = [
   'Junior Frontend Developer',
-  'React & Next.js Developer',
-  'Redux & Firebase Specialist',
+  'React & Next.js Developer'
 ]
 
 export default function Hero() {
