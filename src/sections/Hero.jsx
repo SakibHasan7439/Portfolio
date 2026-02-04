@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import Button from '../components/Button'
 import resumePdf from '../assets/Sakib Hasan.pdf'
+import profileImage from '../assets/sakib.jpeg'
 
 const roles = [
   'Junior Frontend Developer',
@@ -53,6 +54,18 @@ export default function Hero() {
         transition={{ duration: 0.7, ease: 'easeOut' }}
         className="relative z-10 max-w-4xl mx-auto text-center"
       >
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="flex justify-center mb-6"
+        >
+<img
+              src={profileImage}
+              alt="Md. Sakib Hasan"
+              className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full object-cover ring-4 ring-cyan-400/20 ring-offset-4 ring-offset-slate-950 shadow-xl transition-shadow duration-300 hover:shadow-[0_0_30px_rgba(34,211,238,0.4)] hover:ring-cyan-400/40"
+            />
+        </motion.div>
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
