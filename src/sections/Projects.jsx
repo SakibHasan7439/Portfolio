@@ -15,7 +15,7 @@ const projects = [
     title: 'Artifacts Tracker',
     description: 'Full-featured artifact and asset tracking application with real-time updates and organized workflows.',
     tech: ['React', 'Firebase', 'Tailwind'],
-    liveUrl: 'https://artifacts-tracker.web.app/',
+    // liveUrl: 'https://artifacts-tracker.web.app/',
     githubUrl: null,
     image: placeholder,
   },
